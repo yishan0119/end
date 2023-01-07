@@ -1,0 +1,429 @@
+<html><head>
+<meta charset="UTF-8">
+
+<style>
+#article {height:1000px;background-color:#fffaf3;padding:1em;text-align:center}
+</style>
+</head>
+
+<body>
+<div id="article">
+<h1>~你需要哪一種人類~</h1>
+<h2>提醒!請想好再做選擇，選擇後不要按其他選擇的按鈕，以免系統故障，謝謝配合</h2>
+<p>你在朋友的眼中是怎麼樣的人呢?</p>
+<button onclick="display1();">活潑開朗的小太陽型人類</button>
+<button onclick="display2();">憂鬱黑暗的角落型人類</button>
+<button onclick="display3();">成熟穩重的可靠型人類</button>
+<button onclick="display4();">容易孤單的大寶寶型人類</button>
+
+<!--button1-->
+<p id="button1" style="display:none">
+那麼私底下真實你也是一樣的嗎?<br><br>
+<button onclick="display5();">是</button>
+<button onclick="display6();">否</button>
+
+<!--button1-1-->
+</p><p id="button1-1" style="display:none">
+如此溫暖的你是否會繞著地球轉?<br><br>
+<button onclick="display13();">是</button>
+<button onclick="display14();">否</button>
+
+<!--button1-1-1-->
+</p><p id="button1-1-1" style="display:none">
+這麼過動呀!<br>
+你需要的是...<br><br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button1-1-2-->
+<p id="button1-1-2" style="display:none">
+為甚麼不繞著地球轉呢<br>
+你需要的是...<br><br>
+<a href="結果.html">查看結果</a>
+</p>
+<p></p>
+
+<!--button1-2-->
+<p id="button1-2" style="display:none">
+你也是會累的人啊!<br>
+是否也身邊也需要個小太陽陪伴呢?<br><br>
+<button onclick="display15();">我也想要有人關心</button>
+<button onclick="display16();">我自己一個人也能消化好所有情緒</button>
+
+<!--button1-2-1-->
+</p><p id="button1-2-1" style="display:none">
+看來你需要被這樣的人關心呢<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button1-2-2-->
+<p id="button1-2-2" style="display:none">
+你好像很堅強<br>
+但你還是需要一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button2-->
+<p id="button2" style="display:none">
+那麼私底下真實你也是一樣的嗎?<br><br>
+<button onclick="display7();">是</button>
+<button onclick="display8();">否</button>
+
+<!--button2-1-->
+</p><p id="button2-1" style="display:none">
+那你是否需要人來幫助你呢?<br><br>
+<button onclick="display17();">是</button>
+<button onclick="display18();">否</button>
+
+<!--button2-1-1-->
+</p><p id="button2-1-1" style="display:none">
+幫你找到了這樣的人來幫助你...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button2-1-2-->
+<p id="button2-1-2" style="display:none">
+別假堅強了，幫你找了適合你的...<br>
+<a href="結果.html">查看結果</a>
+</p>
+<p></p>
+
+<!--button2-2-->
+<p id="button2-2" style="display:none">
+看起來你是個容易社恐的人啊!<br>
+是否想要變得更加外向<br><br>
+<button onclick="display19();">是</button>
+<button onclick="display20();">否</button>
+
+<!--button2-2-1-->
+</p><p id="button2-2-1" style="display:none">
+你需要的是一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button2-2-2-->
+<p id="button2-2-2" style="display:none">
+看來你很反人類喔<br>
+你需要一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button3-->
+<p id="button3" style="display:none">
+那麼私底下真實你也是一樣的嗎?<br><br>
+<button onclick="display9();">是</button>
+<button onclick="display10();">否</button>
+
+<!--button3-1-->
+</p><p id="button3-1" style="display:none">
+你確定你真的這麼成熟穩重嗎?<br><br>
+<button onclick="display21();">是</button>
+<button onclick="display22();">否</button>
+
+<!--button3-1-1-->
+</p><p id="button3-1-1" style="display:none">
+你很不了解自己呢<br>
+你需要的是...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button3-1-2-->
+<p id="button3-1-2" style="display:none">
+唉呀~差點被你騙了<br>
+看來你是一個愛說謊的呢<br>
+你需要的是一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+<p></p>
+
+<!--button3-2-->
+<p id="button3-2" style="display:none">
+看來你是一個外在堅強<br>
+內心柔軟的人呢<br>
+你喜歡鋼鐵人嗎<br><br>
+<button onclick="display23();">是</button>
+<button onclick="display24();">否</button>
+
+<!--button3-2-1-->
+</p><p id="button3-2-1" style="display:none">
+我也很喜歡<br>
+你需要一位也喜歡鋼鐵人的...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button3-2-2-->
+<p id="button3-2-2" style="display:none">
+為甚麼不喜歡!<br>
+看來你需要一位會逼你看鋼鐵人的...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button4-->
+<p id="button4" style="display:none">
+那麼私底下真實你也是一樣的嗎?<br><br>
+<button onclick="display11();">是</button>
+<button onclick="display12();">否</button>
+
+<!--button4-1-->
+</p><p id="button4-1" style="display:none">
+哇!你真是一個巨嬰欸<br>
+你是否常造成別人困擾?<br><br>
+<button onclick="display25();">是</button>
+<button onclick="display26();">否</button>
+
+<!--button4-1-1-->
+</p><p id="button4-1-1" style="display:none">
+真是有自知之明<br>
+你需要一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button4-1-2-->
+<p id="button4-1-2" style="display:none">
+騙子!<br>
+真是一個麻煩人物<br>
+你超級需要...<br>
+<a href="結果.html">查看結果</a>
+</p>
+<p></p>
+
+<!--button4-2-->
+<p id="button4-2" style="display:none">
+為甚麼你想要當大寶寶呢?<br><br>
+<button onclick="display27();">因為我喜歡黏著別人</button>
+<button onclick="display28();">因為我沒有自理能力</button>
+
+<!--button4-2-1-->
+</p><p id="button4-2-1" style="display:none">
+你是寄生蟲吧<br>
+你需要一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+
+<!--button4-2-2-->
+<p id="button4-2-2" style="display:none">
+那你怎麼活到現在的啊?<br>
+你是不是已經有一位...<br>
+<a href="結果.html">查看結果</a>
+</p>
+<p></p>
+<p></p>
+
+</div>
+
+<script>
+function display1(){
+let a = document.getElementById("button1");
+let b = document.getElementById("button2");
+let c = document.getElementById("button3");
+let d = document.getElementById("button4");
+a.style.display ="block";
+b.style.display ="none";
+c.style.display ="none";
+d.style.display ="none";
+}
+
+function display2(){
+let a = document.getElementById("button1");
+let b = document.getElementById("button2");
+let c = document.getElementById("button3");
+let d = document.getElementById("button4");
+a.style.display ="none";
+b.style.display ="block";
+c.style.display ="none";
+d.style.display ="none";
+}
+
+function display3(){
+let a = document.getElementById("button1");
+let b = document.getElementById("button2");
+let c = document.getElementById("button3");
+let d = document.getElementById("button4");
+a.style.display ="none";
+b.style.display ="none";
+c.style.display ="block";
+d.style.display ="none";
+}
+
+function display4(){
+let a = document.getElementById("button1");
+let b = document.getElementById("button2");
+let c = document.getElementById("button3");
+let d = document.getElementById("button4");
+a.style.display ="none";
+b.style.display ="none";
+c.style.display ="none";
+d.style.display ="block";
+}
+
+function display5(){
+let e = document.getElementById("button1-1");
+let f = document.getElementById("button1-2");
+e.style.display ="block";
+f.style.display ="none";
+}
+
+function display6(){
+let e = document.getElementById("button1-1");
+let f = document.getElementById("button1-2");
+e.style.display ="none";
+f.style.display ="block";
+}
+
+function display7(){
+let g = document.getElementById("button2-1");
+let h = document.getElementById("button2-2");
+g.style.display ="block";
+h.style.display ="none";
+}
+
+function display8(){
+let g = document.getElementById("button2-1");
+let h = document.getElementById("button2-2");
+g.style.display ="none";
+h.style.display ="block";
+}
+
+function display9(){
+let i = document.getElementById("button3-1");
+let j = document.getElementById("button3-2");
+i.style.display ="block";
+j.style.display ="none";
+}
+
+function display10(){
+let i = document.getElementById("button3-1");
+let j = document.getElementById("button3-2");
+i.style.display ="none";
+j.style.display ="block";
+}
+
+function display11(){
+let k = document.getElementById("button4-1");
+let l = document.getElementById("button4-2");
+k.style.display ="block";
+l.style.display ="none";
+}
+
+function display12(){
+let k = document.getElementById("button4-1");
+let l = document.getElementById("button4-2");
+k.style.display ="none";
+l.style.display ="block";
+}
+
+function display13(){
+let m = document.getElementById("button1-1-1");
+let n = document.getElementById("button1-1-2");
+m.style.display ="block";
+n.style.display ="none";
+}
+
+function display14(){
+let m = document.getElementById("button1-1-1");
+let n = document.getElementById("button1-1-2");
+m.style.display ="none";
+n.style.display ="block";
+}
+
+function display15(){
+let o = document.getElementById("button1-2-1");
+let p = document.getElementById("button1-2-2");
+o.style.display ="block";
+p.style.display ="none";
+}
+
+function display16(){
+let o = document.getElementById("button1-2-1");
+let p = document.getElementById("button1-2-2");
+o.style.display ="none";
+p.style.display ="block";
+}
+
+function display17(){
+let q = document.getElementById("button2-1-1");
+let r = document.getElementById("button2-1-2");
+q.style.display ="block";
+r.style.display ="none";
+}
+
+function display18(){
+let q = document.getElementById("button2-1-1");
+let r = document.getElementById("button2-1-2");
+q.style.display ="none";
+r.style.display ="block";
+}
+
+function display19(){
+let s = document.getElementById("button2-2-1");
+let t = document.getElementById("button2-2-2");
+s.style.display ="block";
+t.style.display ="none";
+}
+
+function display20(){
+let s = document.getElementById("button2-2-1");
+let t = document.getElementById("button2-2-2");
+s.style.display ="none";
+t.style.display ="block";
+}
+
+function display21(){
+let u = document.getElementById("button3-1-1");
+let v = document.getElementById("button3-1-2");
+u.style.display ="block";
+v.style.display ="none";
+}
+
+function display22(){
+let u = document.getElementById("button3-1-1");
+let v = document.getElementById("button3-1-2");
+u.style.display ="none";
+v.style.display ="block";
+}
+
+function display23(){
+let w = document.getElementById("button3-2-1");
+let x = document.getElementById("button3-2-2");
+w.style.display ="block";
+x.style.display ="none";
+}
+
+function display24(){
+let w = document.getElementById("button3-2-1");
+let x = document.getElementById("button3-2-2");
+w.style.display ="none";
+x.style.display ="block";
+}
+
+function display25(){
+let y = document.getElementById("button4-1-1");
+let z = document.getElementById("button4-1-2");
+y.style.display ="block";
+z.style.display ="none";
+}
+
+function display26(){
+let y = document.getElementById("button4-1-1");
+let z = document.getElementById("button4-1-2");
+y.style.display ="none";
+z.style.display ="block";
+}
+
+function display27(){
+let aa = document.getElementById("button4-2-1");
+let bb = document.getElementById("button4-2-2");
+aa.style.display ="block";
+bb.style.display ="none";
+}
+
+function display28(){
+let aa = document.getElementById("button4-2-1");
+let bb = document.getElementById("button4-2-2");
+aa.style.display ="none";
+bb.style.display ="block";
+}
+</script>
+
+
+</body></html>
